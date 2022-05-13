@@ -40,9 +40,10 @@ public class CityControllerIT {
 	
 	@BeforeEach
 	void setUp() throws Exception {
-		
+		// Perfil de cliente
 		clientUsername = "ana@gmail.com";
 		clientPassword = "123456";
+		// Perfil de admin
 		adminUsername = "bob@gmail.com";
 		adminPassword = "123456";
 	}
